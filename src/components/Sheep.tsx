@@ -8,14 +8,12 @@ const Sheep = (props: SheepType) => {
     gender,
     id,
     branded,
-    sheepSelectedNumber,
     selectSheep,
   } = props
   
   return (
-    <div className={`sheep${branded ? ' sheep--branded' : ''}${
-        sheepSelectedNumber ? ` sheep--selectedSheep${sheepSelectedNumber}` : ''
-      }`}>
+    <div className={`sheep${branded ? ' sheep--branded' : ''}
+      `}>
       <div className='sheepHead'></div>
        <div
         onClick={(event) => {

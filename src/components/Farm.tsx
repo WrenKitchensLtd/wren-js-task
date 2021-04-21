@@ -67,7 +67,7 @@ const Farm = () => {
 
         let newSheepName =
           prompt(
-            `A new ${LambGender === 'Tup' ? "boy" : "girl"}${LambGender === "Tup" ? "him" : "her"
+            `A new ${LambGender === 'Tup' ? "boy" : "girl"} give ${LambGender === "Tup" ? "him" : "her"
             } a name!`
           ) || newLambs();
 
