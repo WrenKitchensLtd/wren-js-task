@@ -6,22 +6,14 @@ const Sheep = (props: SheepType) => {
   const {
     name,
     gender,
-    id,
     branded,
-    selectSheep,
   } = props
   
   return (
     <div className={`sheep${branded ? ' sheep--branded' : ''}
       `}>
+      <div>
       <div className='sheepHead'></div>
-       <div
-        onClick={(event) => {
-        event.stopPropagation();
-        selectSheep && selectSheep(id);
-      }}
-      key={id}
-    >
       <div className='sheep__name'>{`${name}`}</div>
       <div className='sheep__gender'>{gender}</div>
     </div>

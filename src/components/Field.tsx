@@ -11,7 +11,7 @@ const Field = (props: FieldType) => {
   return (
     <div>
       <div className='fieldContainer'>
-        {sheep.map((sheep, index) => {
+        {sheep.map((sheep) => {
           const { name, gender, id, branded } = sheep;
           return (
             <Sheep
@@ -19,7 +19,6 @@ const Field = (props: FieldType) => {
               gender={gender}
               id={id}
               branded={branded}
-              key={index}
             />
           );
         })}
