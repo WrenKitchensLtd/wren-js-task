@@ -1,9 +1,10 @@
-import * as React from 'react';
+import React from 'react';
+import Farm from './components/Farm'
 
 export class Root extends React.Component {
     render() {
-        return (
-            <h1>Hello World</h1>
-        );
+      return (
+        <Farm/>
+			)
     }
 }

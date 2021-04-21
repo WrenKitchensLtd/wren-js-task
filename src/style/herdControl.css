@@ -1,0 +1,17 @@
+.HerdControls {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 50rem;
+}
+
+.gender {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+button {
+  border-radius: 10px;
+  background-color: rgb(218, 210, 210);
+}

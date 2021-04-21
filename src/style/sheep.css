@@ -1,0 +1,19 @@
+.sheep {
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  width: 40px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.sheepHead {
+  border-radius: 15px;
+  background-color: black;
+  height: 10px;
+  width: 14px;
+}
+
+.sheep--branded {
+  background-color: green;
+}
