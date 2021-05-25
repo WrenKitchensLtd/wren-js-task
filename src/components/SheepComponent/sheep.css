@@ -1,0 +1,15 @@
+.sheep {
+  width: 150px;
+  height: 100px;
+  background: white;
+  border-radius: 75px / 50px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.branded {
+  background-color: green;
+}
