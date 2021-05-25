@@ -85,7 +85,7 @@ const App = () => {
         );
       } else {
         logFailure(
-          `${randomMaleSheep.name} & ${randomFemaleSheep.name} failed to breed.`
+          `${randomMaleSheep.name} & ${randomFemaleSheep.name} failed to breed. Try again!`
         );
       }
     } else {
