@@ -1,0 +1,9 @@
+.fieldContainer {
+  height: 50rem;
+  width: 50rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(93, 240, 93);
+  border: 10px solid brown;
+}
